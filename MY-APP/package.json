@@ -1,0 +1,15 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIY",
+  "scripts": {
+    "build": "babel src/app.js --out-file public/scripts/app.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
